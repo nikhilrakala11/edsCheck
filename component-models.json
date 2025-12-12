@@ -233,6 +233,13 @@
          "value": ""
        },
        {
+         "component": "text",
+         "valueType": "string",
+         "name": "nikhil",
+         "label": "Nikhil",
+         "value": ""
+       },
+       {
         "component": "select",
         "name": "classes",
         "value": "",

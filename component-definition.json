@@ -168,7 +168,8 @@
                   "name": "Quote",
                   "model": "quote",
                   "quote": "<p>Socho, Udoo! Aur Socho!</p>",
-                  "author": "Nikhil Rakala"
+                  "author": "Nikhil Rakala",
+                  "nikhil":"This is the test data"
                 }
               }
             }
