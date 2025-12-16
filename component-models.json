@@ -264,59 +264,28 @@
     ]
   },
   {
-    "id": "teaser",
-    "label": "Teaser",
+    "id": "hero",
     "fields": [
       {
         "component": "reference",
+        "valueType": "string",
         "name": "image",
-        "label": "Image"
+        "label": "Image",
+        "multi": false
       },
       {
-        "component": "text",
+        "component": "text-input",
+        "valueType": "string",
         "name": "imageAlt",
-        "label": "Image Alt"
+        "label": "Alt",
+        "value": ""
       },
       {
-        "component": "text",
-        "name": "subtitle",
-        "label": "Subtitle"
-      },
-      {
-        "component": "text",
-        "name": "title",
-        "label": "Title"
-      },
-      {
-        "component": "select",
-        "name": "titleType",
-        "label": "Title Type",
-        "defaultValue": "h2",
-        "options": [
-          {
-            "name": "H1",
-            "value": "h1"
-          },
-          {
-            "name": "H2",
-            "value": "h2"
-          }
-        ]
-      },
-      {
-        "component": "richtext",
-        "name": "description",
-        "label": "Description"
-      },
-      {
-        "component": "aem-content",
-        "name": "cta1",
-        "label": "Primary CTA"
-      },
-      {
-        "component": "text",
-        "name": "cta1Text",
-        "label": "Primary CTA Text"
+        "component": "text-area",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   }
