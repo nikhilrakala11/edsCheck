@@ -265,7 +265,7 @@
   },
   {
     "id": "hero",
-    "limit": 2,
+    "limit": 1,
     "fields": [
       {
         "component": "reference",
@@ -273,7 +273,8 @@
         "name": "images",
         "label": "Image",
         "value":"",
-        "key-value": true
+        "key-value": true,
+         "multi": false
 
       },
       {

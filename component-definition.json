@@ -185,7 +185,7 @@
                 "template": {
                   "name": "Hero",
                   "model": "hero",
-                  "images": "/content/dam/image.png",
+                  "images": "/content/dam/edsCheck/content-at-scale.png",
                   "imageAlts": "Helix - a shape like a corkscrew",
                   "texts": "<h1>Welcome to AEM</h1>"
                 }
