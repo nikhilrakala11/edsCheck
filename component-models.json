@@ -269,21 +269,21 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
+        "name": "images",
         "label": "Image",
         "value":""
 
       },
       {
-        "component": "text-input",
+        "component": "text",
         "valueType": "string",
         "name": "imageAlt",
         "label": "Alt",
         "value": ""
       },
       {
-        "component": "text-area",
-        "name": "text",
+        "component": "text",
+        "name": "texts",
         "value": "",
         "label": "Text",
         "valueType": "string"

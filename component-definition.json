@@ -185,9 +185,9 @@
                 "template": {
                   "name": "Hero",
                   "model": "hero",
-                  "image": "/content/dam/image.png",
+                  "images": "/content/dam/image.png",
                   "imageAlt": "Helix - a shape like a corkscrew",
-                  "text": "<h1>Welcome to AEM</h1>"
+                  "texts": "<h1>Welcome to AEM</h1>"
                 }
               }
             }
