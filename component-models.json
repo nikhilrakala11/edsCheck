@@ -274,7 +274,7 @@
         "label": "Image",
         "value":"",
         "key-value": true,
-         "multi": false
+        "multi": true
 
       },
       {
