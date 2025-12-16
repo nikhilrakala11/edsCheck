@@ -169,7 +169,22 @@
                   "model": "quote",
                   "quote": "<p>Socho, Udoo! Aur Socho!</p>",
                   "author": "Nikhil Rakala",
-                  "nikhil":"This is the test data"
+                  "nikhil": "This is the test data"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "teaser",
+          "model": "teaser",
+          "title": "Teaser",
+          "plugins": {
+            "aem": {
+              "page": {
+                "resourceType": "aem-demo-assets/components/teaser",
+                "template": {
+                  "title": "Teaser"
                 }
               }
             }
