@@ -183,6 +183,15 @@
             "aem": {
               "page": {
                 "resourceType": "aem-demo-assets/components/teaser",
+                "xwalk": {
+                  "title": "jcr:title",
+                  "subtitle": "subtitle",
+                  "description": "jcr:description",
+                  "image": "fileReference",
+                  "imageAlt": "alt",
+                  "cta1": "linkURL",
+                  "cta1Text": "linkText"
+                },
                 "template": {
                   "title": "Teaser"
                 }

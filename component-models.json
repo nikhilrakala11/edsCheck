@@ -218,28 +218,28 @@
   {
     "id": "quote",
     "fields": [
-       {
-         "component": "richtext",
-         "name": "quote",
-         "value": "",
-         "label": "Quote",
-         "valueType": "string"
-       },
-       {
-         "component": "text",
-         "valueType": "string",
-         "name": "author",
-         "label": "Author",
-         "value": ""
-       },
-       {
-         "component": "text",
-         "valueType": "string",
-         "name": "nikhil",
-         "label": "Nikhil",
-         "value": ""
-       },
-       {
+      {
+        "component": "richtext",
+        "name": "quote",
+        "value": "",
+        "label": "Quote",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "author",
+        "label": "Author",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "nikhil",
+        "label": "Nikhil",
+        "value": ""
+      },
+      {
         "component": "select",
         "name": "classes",
         "value": "",
@@ -261,77 +261,63 @@
           }
         ]
       }
-     ]
+    ]
   },
   {
-  "id": "teaser",
-  "label": "Teaser",
-  "fields": [
-    {
-      "component": "reference",
-      "name": "image",
-      "label": "Image"
-    },
-    {
-      "component": "text",
-      "name": "imageAlt",
-      "label": "Image Alt Text"
-    },
-    {
-      "component": "text",
-      "name": "subtitle",
-      "label": "Subtitle"
-    },
-    {
-      "component": "text",
-      "name": "title",
-      "label": "Title"
-    },
-    {
-      "component": "select",
-      "name": "titleType",
-      "label": "Title Type",
-      "options": [
-        { "name": "H1", "value": "h1" },
-        { "name": "H2", "value": "h2" },
-        { "name": "H3", "value": "h3" }
-      ]
-    },
-    {
-      "component": "richtext",
-      "name": "description",
-      "label": "Description"
-    },
-    {
-      "component": "aem-content",
-      "name": "cta1",
-      "label": "Primary CTA Link"
-    },
-    {
-      "component": "text",
-      "name": "cta1Text",
-      "label": "Primary CTA Text"
-    },
-    {
-      "component": "aem-content",
-      "name": "cta2",
-      "label": "Secondary CTA Link"
-    },
-    {
-      "component": "text",
-      "name": "cta2Text",
-      "label": "Secondary CTA Text"
-    },
-    {
-      "component": "select",
-      "name": "cta2Type",
-      "label": "Secondary CTA Style",
-      "options": [
-        { "name": "Default", "value": "" },
-        { "name": "Primary", "value": "primary" }
-      ]
-    }
-  ]
-}
-
+    "id": "teaser",
+    "label": "Teaser",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Image Alt"
+      },
+      {
+        "component": "text",
+        "name": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title"
+      },
+      {
+        "component": "select",
+        "name": "titleType",
+        "label": "Title Type",
+        "defaultValue": "h2",
+        "options": [
+          {
+            "name": "H1",
+            "value": "h1"
+          },
+          {
+            "name": "H2",
+            "value": "h2"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "label": "Description"
+      },
+      {
+        "component": "aem-content",
+        "name": "cta1",
+        "label": "Primary CTA"
+      },
+      {
+        "component": "text",
+        "name": "cta1Text",
+        "label": "Primary CTA Text"
+      }
+    ]
+  }
 ]
