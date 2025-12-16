@@ -265,21 +265,24 @@
   },
   {
     "id": "hero",
+    "limit": 2,
     "fields": [
       {
         "component": "reference",
         "valueType": "string",
         "name": "images",
         "label": "Image",
-        "value":""
+        "value":"",
+        "key-value": true
 
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "imageAlt",
+        "name": "imageAlts",
         "label": "Alt",
-        "value": ""
+        "value": "",
+        "key-value": true
       },
       {
         "component": "text",
