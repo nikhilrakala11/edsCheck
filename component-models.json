@@ -273,7 +273,6 @@
         "name": "images",
         "label": "Image",
         "multi": true
-
       },
       {
         "component": "text",
@@ -289,6 +288,24 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "group",
+        "name": "items",
+        "label": "Items",
+        "limit": 4,
+        "fields": [
+          {
+            "component": "text",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "component": "text",
+            "name": "value",
+            "label": "Value"
+          }
+        ]
       }
     ]
   }
