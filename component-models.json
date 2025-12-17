@@ -271,8 +271,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "images",
-        "label": "Image",
-        "multi": false
+        "label": "Image"
       },
       {
         "component": "text",
@@ -287,7 +286,8 @@
         "name": "texts",
         "value": "",
         "label": "Text",
-        "valueType": "string"
+        "valueType": "string",
+        "multi":true
       },
       {
         "component": "group",
