@@ -288,24 +288,6 @@
         "label": "Text",
         "valueType": "string",
         "multi":true
-      },
-      {
-        "component": "group",
-        "name": "items",
-        "label": "Items",
-        "limit": 4,
-        "fields": [
-          {
-            "component": "text",
-            "name": "title",
-            "label": "Title"
-          },
-          {
-            "component": "text",
-            "name": "value",
-            "label": "Value"
-          }
-        ]
       }
     ]
   }
