@@ -272,7 +272,7 @@
         "valueType": "string",
         "name": "images",
         "label": "Image",
-        "multi": true
+        "multi": false
       },
       {
         "component": "text",
