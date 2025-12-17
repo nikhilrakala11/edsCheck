@@ -271,7 +271,8 @@
         "component": "reference",
         "valueType": "string",
         "name": "images",
-        "label": "Image"
+        "label": "Image",
+        "multi":true
       },
       {
         "component": "text",
