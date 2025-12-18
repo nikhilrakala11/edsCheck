@@ -271,8 +271,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "images",
-        "label": "Image",
-        "multi":true
+        "label": "Image"
       },
       {
         "component": "text",
@@ -287,8 +286,22 @@
         "name": "texts",
         "value": "",
         "label": "Text",
-        "valueType": "string",
-        "multi":true
+        "valueType": "string"
+      },
+      {
+        "component": "container",
+        "name": "images",
+        "multi": true,
+        "fields": [
+          {
+            "component": "reference",
+            "name": "image"
+          },
+          {
+            "component": "text",
+            "name": "imageAlt"
+          }
+        ]
       }
     ]
   }
