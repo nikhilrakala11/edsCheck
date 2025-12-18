@@ -187,7 +187,13 @@
                   "model": "hero",
                   "images": "/content/dam/edsCheck/content-at-scale.png",
                   "imageAlts": "Helix - a shape like a corkscrew",
-                  "texts": "<h1>Welcome to AEM</h1>"
+                  "texts": "<h1>Welcome to AEM</h1>",
+                  "imaged": [
+                    {
+                      "imagem": "/content/dam/edsCheck/content-at-scale.png",
+                      "imageAltm": "Default image alt text"
+                    }
+                  ]
                 }
               }
             }
