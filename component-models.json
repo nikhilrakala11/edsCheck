@@ -295,11 +295,11 @@
         "fields": [
           {
             "component": "reference",
-            "name": "imagem"
+            "name": "imagep"
           },
           {
             "component": "text",
-            "name": "imageAltm"
+            "name": "imageAltp"
           }
         ]
       }

@@ -190,8 +190,8 @@
                   "texts": "<h1>Welcome to AEM</h1>",
                   "imaged": [
                     {
-                      "imagem": "/content/dam/edsCheck/content-at-scale.png",
-                      "imageAltm": "Default image alt text"
+                      "imagep": "/content/dam/edsCheck/content-at-scale.png",
+                      "imageAltp": "Default image alt text"
                     }
                   ]
                 }
