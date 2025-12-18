@@ -290,16 +290,16 @@
       },
       {
         "component": "container",
-        "name": "images",
+        "name": "imaged",
         "multi": true,
         "fields": [
           {
             "component": "reference",
-            "name": "image"
+            "name": "imagem"
           },
           {
             "component": "text",
-            "name": "imageAlt"
+            "name": "imageAltm"
           }
         ]
       }
