@@ -239,6 +239,7 @@
     "component": "container",
     "name": "images",
     "multi": true,
+    "limit":2,
     "fields": [
       {
         "component": "reference",
