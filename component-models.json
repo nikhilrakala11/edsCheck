@@ -240,21 +240,21 @@
       "component": "reference",
       "valueType": "string",
       "name": "imaged",
-      "label": "Image",
+      "label": "Imaged",
       "multi": false
     },
     {
       "component": "text-input",
       "valueType": "string",
       "name": "imageAltd",
-      "label": "Alt",
+      "label": "Alted",
       "value": ""
     },
     {
       "component": "text-area",
       "name": "textd",
       "value": "",
-      "label": "Text",
+      "label": "Textd",
       "valueType": "string"
     }
   ]
