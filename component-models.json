@@ -215,7 +215,8 @@
       "component": "reference",
       "valueType": "string",
       "name": "imaged",
-      "label": "Imaged"
+      "label": "Imaged",
+      "multi":true
     },
     {
       "component": "text-input",
