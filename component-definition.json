@@ -152,8 +152,8 @@
                 "template": {
                   "name": "Quote",
                   "model": "quote",
-                  "quote": "<p>Think, McFly! Think!</p>",
-                  "author": "Nikhil Rakala"
+                  "quoted": "<p>Think, McFly! Think!</p>",
+                  "authord": "Nikhil Rakala"
                 }
               }
             }

@@ -194,7 +194,7 @@
     "fields": [
       {
         "component": "richtext",
-        "name": "quote",
+        "name": "quoted",
         "value": "",
         "label": "Quote",
         "valueType": "string"
@@ -202,7 +202,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "author",
+        "name": "authord",
         "label": "Author",
         "value": ""
       }
