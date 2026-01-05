@@ -186,8 +186,12 @@
                 "template": {
                   "name": "Nikhil",
                   "model": "nikhil",
+                   "images": [
+                    {
                   "imageAltg": "jyuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu",
                   "imageg": "/content/dam/edscheck/defaults/placeholder.png"
+                    }
+                   ]
                 }
               }
             }
