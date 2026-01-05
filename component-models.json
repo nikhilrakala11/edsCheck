@@ -236,11 +236,13 @@
   },
   {
     "id": "nikhil",
+    "fields":[
+    {
     "component": "container",
     "name": "images",
+    "label": "nikhil",
     "multi": true,
-    "limit":2,
-    "fields": [
+      "fields": [
       {
         "component": "reference",
         "name": "image",
@@ -251,7 +253,9 @@
         "name": "imageAlt",
         "label":"Alt Text"
       }
-    ]
+      ]
+    }
+  ]
   },
   {
   "id": "section",
@@ -282,6 +286,4 @@
     }
   ]
 }
-
-
 ]
