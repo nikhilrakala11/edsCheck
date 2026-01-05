@@ -235,10 +235,10 @@
     ]
   },
   {
-    "id": "nikhil",
     "component": "container",
     "name": "images",
     "multi": true,
+    "limit": 1,
     "fields": [
       {
         "component": "reference",
