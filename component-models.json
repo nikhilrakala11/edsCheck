@@ -209,30 +209,42 @@
     ]
   },
   {
-  "id": "zero",
-  "fields": [
-    {
-      "component": "reference",
-      "valueType": "string",
-      "name": "imaged",
-      "label": "Imaged",
-      "multi":true
-    },
-    {
-      "component": "text-input",
-      "valueType": "string",
-      "name": "imageAltd",
-      "label": "Alted",
-      "value": ""
-    },
-    {
-      "component": "text-area",
-      "name": "textd",
-      "value": "",
-      "label": "Textd",
-      "valueType": "string"
-    }
-  ]
-}
-
+    "id": "zero",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "imaged",
+        "label": "Imaged",
+        "multi": true
+      },
+      {
+        "component": "text-input",
+        "valueType": "string",
+        "name": "imageAltd",
+        "label": "Alted",
+        "value": ""
+      },
+      {
+        "component": "text-area",
+        "name": "textd",
+        "value": "",
+        "label": "Textd",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "nikhil",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "imageg"
+      },
+      {
+        "component": "text",
+        "name": "imageAltg"
+      }
+    ]
+  }
 ]
