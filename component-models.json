@@ -236,6 +236,9 @@
   },
   {
     "id": "nikhil",
+    "component": "container",
+    "name": "images",
+    "multi": true,
     "fields": [
       {
         "component": "reference",
