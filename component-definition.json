@@ -186,8 +186,16 @@
                 "template": {
                   "name": "Nikhil",
                   "model": "nikhil",
-                  "imageg": "/content/dam/edscheck/defaults/placeholder.png",
-                  "imageAltg": "Default placeholder image"
+                  "images": [
+                    {
+                      "image": "/content/dam/edscheck/defaults/placeholder.png",
+                      "imageAlt": "dog"
+                    },
+                    {
+                      "image": "/content/dam/edscheck/defaults/placeholder.png",
+                      "imageAlt": "cat"
+                    }
+                  ]
                 }
               }
             }

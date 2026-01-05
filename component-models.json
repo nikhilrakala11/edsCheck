@@ -235,18 +235,20 @@
     ]
   },
   {
+    "id": "nikhil",
     "component": "container",
     "name": "images",
     "multi": true,
-    "limit": 1,
     "fields": [
       {
         "component": "reference",
-        "name": "imageg"
+        "name": "image",
+        "label":"For Image"
       },
       {
         "component": "text",
-        "name": "imageAltg"
+        "name": "imageAlt",
+        "label":"Alt Text"
       }
     ]
   }
