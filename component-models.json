@@ -239,20 +239,20 @@
     {
       "component": "reference",
       "valueType": "string",
-      "name": "image",
+      "name": "imaged",
       "label": "Image",
       "multi": false
     },
     {
       "component": "text-input",
       "valueType": "string",
-      "name": "imageAlt",
+      "name": "imageAltd",
       "label": "Alt",
       "value": ""
     },
     {
       "component": "text-area",
-      "name": "text",
+      "name": "textd",
       "value": "",
       "label": "Text",
       "valueType": "string"
