@@ -252,5 +252,31 @@
         "label":"Alt Text"
       }
     ]
-  }
+  },
+  {
+  "id": "section",
+  "component": "container",
+  "name": "sections",
+  "label": "Sections",
+  "multi": true,
+  "fields": [
+    {
+      "component": "text",
+      "name": "name",
+      "label": "Section Name"
+    },
+    {
+      "component": "multiselect",
+      "name": "style",
+      "label": "Style",
+      "options": [
+        {
+          "name": "Highlight",
+          "value": "highlight"
+        }
+      ]
+    }
+  ]
+}
+
 ]
