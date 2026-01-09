@@ -15,7 +15,7 @@ async function fetchArticleText() {
     //     throw new Error(`API failed: ${response.status}`);
     // }
 
-    const jsontext = await response.json(); // ✅ read raw text first
+    // const jsontext = await response.json(); // ✅ read raw text first
     const text = await response.text(); // ✅ read raw text first
     console.log(text);
 
