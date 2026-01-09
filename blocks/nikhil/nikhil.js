@@ -1,5 +1,5 @@
 async function fetchArticleText() {
-    const url = 'http://localhost:4502/nikhil/a/fetchchoices';
+    const url = 'http://localhost:4502/new/a/fetchchoices';
 
     const response = await fetch(url, {
         credentials: 'same-origin', // IMPORTANT for AEM
@@ -15,7 +15,8 @@ async function fetchArticleText() {
     //     throw new Error(`API failed: ${response.status}`);
     // }
 
-    const text = await response.json(); // ✅ read raw text first
+    const jsontext = await response.json(); // ✅ read raw text first
+    const text = await response.text(); // ✅ read raw text first
     console.log(text);
 
     // if (!text) {
