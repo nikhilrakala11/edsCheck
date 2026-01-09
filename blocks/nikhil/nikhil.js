@@ -7,7 +7,7 @@ async function fetchArticleText() {
             'Accept': 'application/json'
         }
     });
-    console.log(response);
+    console.log(response,"ooooooooooooooooooooooooooooooo");
     console.log(response.status);
     console.log(response.status);
 
