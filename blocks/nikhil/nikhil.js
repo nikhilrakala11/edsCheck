@@ -1,18 +1,21 @@
-// export default function decorate(block) {
-//   console.log('NIKHIL BLOCK:', block);
-//   console.log('CHILDREN:', block.children);
-
-//   [...block.children].forEach((row, i) => {
-//     console.log(`ROW ${i}:`, row.innerHTML);
-//   });
-// }
 export default function decorate(block) {
   const rows = [...block.children];
+  block.innerHTML = '';
 
-  rows.forEach(row => {
-    const img = row.querySelector('img');
-    const alt = img?.alt;
-    console.log(alt);
+  rows.forEach((row) => {
+    const cols = [...row.children];
+
+    const image =
+      cols[0]?.querySelector('a')?.href ||
+      cols[0]?.textContent?.trim();
+
+    const alt = cols[1]?.textContent?.trim() || '';
+
+    if (image) {
+      const img = document.createElement('img');
+      img.src = image;
+      img.alt = alt;
+      block.appendChild(img);
+    }
   });
 }
-
