@@ -12,7 +12,7 @@ async function fetchArticleText() {
     throw new Error(`API failed: ${response.status}`);
   }
 
-  const text = await response.text(); // ✅ read raw text first
+  const text = await response.json(); // ✅ read raw text first
 
   if (!text) {
     throw new Error('Empty response from servlet');
