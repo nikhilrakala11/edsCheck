@@ -1,5 +1,5 @@
 async function fetchArticleText() {
-    const url = 'http://localhost:4502/bin/fetchchoices';
+    const url = 'http://localhost:4502/nikhil/a/fetchchoices';
 
     const response = await fetch(url, {
         credentials: 'same-origin', // IMPORTANT for AEM
