@@ -1,1 +1,28 @@
-console.log("hi");
+async function fetchArticleText(articleNumber) {
+  const url = `localhost:4502/bin/fetchchoices`;
+
+  try {
+    const username = 'admin';
+    const password = 'admin';
+
+    const authHeader = `Basic ${btoa(`${username}:${password}`)}`;
+    const response = await fetch(url, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: authHeader,
+      },
+    });
+    if (!response.ok) return null;
+
+    const json = await response.json();
+
+    return {
+      title: json.title || 'View Article',
+      desc: json.desc || 'No Article Found.',
+    };
+  } catch (e) {
+    console.error(`Failed to fetch article ${articleNumber}`, e);
+    return '';
+  }
+}
