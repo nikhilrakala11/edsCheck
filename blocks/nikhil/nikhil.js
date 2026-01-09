@@ -15,7 +15,7 @@ export default async function decorate(block) {
 
   try {
     const data = await fetchArticleText();
-
+    console.log(data);
     // Create markup
     const wrapper = document.createElement('div');
     wrapper.className = 'article-wrapper';
