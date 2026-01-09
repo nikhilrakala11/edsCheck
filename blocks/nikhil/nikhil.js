@@ -1,5 +1,5 @@
 async function fetchArticleText() {
-  const url = 'http://localhost:4502/api/fetchchoices';
+  const url = 'http://localhost:4502/bin/fetchchoices';
 
   const response = await fetch(url);
   if (!response.ok) {
