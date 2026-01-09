@@ -2,7 +2,9 @@
   {
     "id": "main",
     "components": [
-      "section"
+      "section",
+      "zero",
+      "nikhil"
     ]
   },
   {
@@ -24,13 +26,17 @@
   {
     "id": "cards",
     "components": [
-      "card"
+      "card",
+      "zero",
+      "nikhil"
     ]
   },
   {
     "id": "columns",
     "components": [
-      "column"
+      "column",
+      "zero",
+      "nikhil"
     ]
   },
   {
@@ -40,7 +46,9 @@
       "image",
       "button",
       "title",
-      "teaser"
+      "teaser",
+      "zero",
+      "nikhil"
     ]
   },
   {
