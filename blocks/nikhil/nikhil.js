@@ -16,6 +16,7 @@ async function fetchArticleText(articleNumber) {
     if (!response.ok) return null;
 
     const json = await response.json();
+    console.log(json);
 
     return {
       title: json.title || 'View Article',
