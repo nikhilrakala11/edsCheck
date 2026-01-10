@@ -1,4 +1,5 @@
 async function fetchArticleText() {
+    debugger;
   const url = 'http://localhost:4502/bin/vijaya';
 
   const response = await fetch(url, {
