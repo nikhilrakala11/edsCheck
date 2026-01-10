@@ -1,5 +1,5 @@
 async function fetchArticleText() {
-  const url = 'http://localhost:4502/new/a/fetchchoices';
+  const url = 'http://localhost:4502/bin/vijaya';
 
   const response = await fetch(url, {
     headers: { 'Accept': 'application/json' }
