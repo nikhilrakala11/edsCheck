@@ -1,17 +1,21 @@
 async function fetchArticleText() {
-    debugger;
   const url = 'http://localhost:4502/bin/vijaya';
 
   const response = await fetch(url, {
-    headers: { 'Accept': 'application/json' }
+    headers: {
+      Accept: 'application/json',
+    },
   });
-console.log(response);
+
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`);
   }
-  console.log(response);
+
   return response.json();
 }
+
+export default fetchArticleText;
+
 
 // async function fetchArticleText(articleNumber) {
 //   const url = `localhost:4502/bin/abc.json`;
