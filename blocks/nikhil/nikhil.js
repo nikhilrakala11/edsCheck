@@ -4,7 +4,7 @@ async function fetchArticleText() {
   const response = await fetch(url, {
     headers: { 'Accept': 'application/json' }
   });
-
+console.log(response);
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`);
   }
