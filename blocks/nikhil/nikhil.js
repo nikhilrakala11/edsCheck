@@ -1,11 +1,28 @@
-async function fetchArticleText() 
-{
-  const API_URL = 'http://localhost:4502/new/a/fetchchoices';
-  const response = await fetch(API_URL);
+async function fetchArticleText(articleNumber) {
+  const url = `localhost:4502/bin/abc.json`;
 
-  if (!response.ok) {
-    throw new Error(`API failed: ${response.status}`);
+  try {
+    const username = 'admin';
+    const password = 'admin';
+
+    const authHeader = `Basic ${btoa(`${username}:${password}`)}`;
+    const response = await fetch(url, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: authHeader,
+      },
+    });
+    if (!response.ok) return null;
+
+    const json = await response.json();
+
+    return {
+      title: json.title || 'View Article',
+      desc: json.desc || 'No Article Found.',
+    };
+  } catch (e) {
+    console.error(`Failed to fetch article ${articleNumber}`, e);
+    return '';
   }
-
-  return response.json();
 }
