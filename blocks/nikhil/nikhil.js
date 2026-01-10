@@ -13,10 +13,7 @@ async function fetchArticleText() {
 
   return response.json();
 }
-
 export default fetchArticleText;
-
-
 // async function fetchArticleText(articleNumber) {
 //   const url = `localhost:4502/bin/abc.json`;
 
